@@ -1,0 +1,52 @@
+{
+  "name": "lx-vue-element-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:test": "cross-env BASE_URL=/projects/管理后台模板/ vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "icon": "cross-env NODE_ENV=development gulp iconfont",
+    "build:icon": "cross-env NODE_ENV=production gulp iconfont"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.13.2",
+    "fuse.js": "^6.0.4",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "path-to-regexp": "^2.4.0",
+    "screenfull": "^4.2.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.4.0",
+    "@vue/cli-plugin-eslint": "^4.4.0",
+    "@vue/cli-plugin-router": "^4.4.0",
+    "@vue/cli-plugin-vuex": "^4.4.0",
+    "@vue/cli-service": "^4.4.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.2",
+    "del": "^5.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^6.2.2",
+    "gulp": "^4.0.2",
+    "gulp-qc-iconfont": "0.0.5",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.19.1",
+    "sass-loader": "^8.0.2",
+    "script-ext-html-webpack-plugin": "^2.1.4",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
